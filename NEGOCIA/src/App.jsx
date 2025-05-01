@@ -20,7 +20,7 @@ function App() {
       <h2>Agente de Negocios con IA</h2>
       <input value={msg} onChange={e => setMsg(e.target.value)} placeholder="Describe tu negocio" />
       <button onClick={handleSubmit}>Consultar</button>
-      <p><strong>Respuesta:</strong> {res}</p>
+      <p><strong>Respuestaa:</strong> {res}</p>
     </div>
   );
 }
